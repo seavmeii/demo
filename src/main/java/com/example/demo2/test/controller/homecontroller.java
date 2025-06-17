@@ -29,12 +29,6 @@ public class homecontroller {
         return "MemberAddform";
     }
 
-    @GetMapping("/form3")
-    public String form3() {
-        // test
-        return "MemberAddform";
-    }
-
     @GetMapping("/form")
     public String form() {
         return "MemberAddform";
